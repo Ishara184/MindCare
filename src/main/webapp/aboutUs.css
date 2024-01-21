@@ -1,0 +1,225 @@
+@charset "ISO-8859-1";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color:#fff ;
+}
+
+.name{
+	color: #373636; 
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    padding-top:60px;
+}
+
+/*who we are*/
+.section{
+    width:100%;
+    min-height:80vh;
+}
+
+.container{
+    width:80%;
+    display: block;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.content-section{
+    float: left;
+    width: 35%;
+    box-shadow:0 0 2.5rem rgba(0, 0, 0,0.28);
+    margin-top: 20%;
+}
+
+.image-section{
+    float: right;
+    width: 60%;
+}
+
+.image-section img{
+    width: 120%;
+    height: auto;
+}
+
+.container .title{
+    text-transform: uppercase;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.container .content-section .content{
+    margin: 40px;
+}
+
+.content-section .content h3{
+    margin-top: 20px;
+    color: #373636; 
+    font-size: 25px;
+}
+
+.content-section .content p{
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 17px;
+    line-height: 1.5;
+}
+/*end*/
+
+
+/*why to choose us*/
+.title {
+    color: #373636; 
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    padding-top:400px;
+}
+
+.flex-container{
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    justify-content: center;
+}
+
+.flex-box{
+    width: 200px;
+    height: 100px;
+    background-color: #ffffff;
+    background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+    border-radius: 20px;
+    margin: 10px;
+    font-size: 25px;
+    text-align: center;
+    text-decoration-color: #ddd;
+    line-height: 100px;
+}
+/*why to choose us end*/
+
+
+/*stretagy*/
+.wrapper{
+    margin-top: 20px;
+    text-align: center ;
+    margin-bottom:70px;
+}
+
+.wrapper .stretagy{
+    display: flex;
+    width: auto;
+    justify-content: center;
+}
+
+.wrapper .stretagy .target{
+    width:300px;
+    margin: 20px;
+    margin-right: 50px;
+    margin-left:50px ;
+    justify-content: center;
+    background-color: #fff;
+    padding: 10px 10px;
+    box-shadow:0 0 2.5rem rgba(0, 0, 0,0.28);
+}
+
+
+.wrapper .stretagy .target .target-image{
+    margin: 0 auto;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+    position: relative;
+}
+
+.wrapper .stretagy .target .target-image img{
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper .stretagy .target h4{
+    margin-bottom: 50px;
+    font-size: 22px;
+}
+
+.wrapper .stretagy .target p{
+    justify-content: center;
+    margin: 20px;
+}
+/*stratgy end*/
+
+
+/*Responsive*/
+@media screen and (max-width:768px) {
+    .container{
+        width: 80%;
+        display: block;
+        margin: auto;
+        padding-top: 50px;
+    }
+
+    .content-section{
+        float: none;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+
+    .image-section{
+        float: none;
+        width: 100%;
+    }
+
+    .image-section img{
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: auto;
+    }
+
+    .content-section .title{
+        text-align:center;
+        font-size: 19px;
+    }
+
+    .wrapper{
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: auto;
+        float: none;
+    }
+
+    .wrapper .stretag{
+        float: none;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+
+    .wrapper .stretagy .target{
+        float: none;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+
+    .wrapper .stretagy .target .target-image{
+        float: none;
+        width: 100%;
+    }
+}
+/*end*/
